@@ -12,7 +12,7 @@ contract BidEther{
     bool public statusOfItem=false;
     constructor(){
         auctioner=msg.sender;
-        auctionItem="Kunal's DSA Course";
+        auctionItem="Rolex Watch";
     }
     function statusofItem() public view returns(bool){
         return statusOfItem;
