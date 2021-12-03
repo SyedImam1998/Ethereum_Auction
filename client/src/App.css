@@ -1,0 +1,91 @@
+.parent{
+text-align: center;
+color: white;
+  
+}
+table,td{
+  border:1px solid rgb(251, 251, 252);
+  border-collapse: collapse;
+}
+table{
+  margin-left: 30%;
+  
+}
+td{
+  padding: 20px;
+}
+
+.withdrawBtn,.sellBtn{
+  padding:10px;
+  min-width: 150px;
+  margin-left: 10px;
+  border-radius: 20px;
+  border:solid;
+  color: white;
+  font-weight: bold;
+  background: transparent;
+  border-color: white;
+  cursor: pointer;
+}
+.bidBtn{
+  cursor: pointer;
+  padding:10px;
+  min-width: 150px;
+  margin-left: 10px;
+  border-radius: 20px;
+  border:solid;
+  color: white;
+  font-weight: bold;
+  background: transparent;
+    border-color: white;
+}
+.refreshBtn:active {
+
+  transform: translateY(4px);
+}
+.bidBtn:active {
+
+  transform: translateY(4px);
+}
+.withdrawBtn:active {
+
+  transform: translateY(4px);
+}
+.refreshBtn{
+  cursor: pointer;
+  padding:10px;
+  min-width: 150px;
+  margin-left: 10px;
+  border-radius: 20px;
+  border:none;
+  border:solid;
+  color: white;
+  font-weight: bold;
+  /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%); */
+  background: transparent;
+  border-color: white;
+}
+.biddingField{
+  padding:10px;
+  min-width: 200px;
+  border-radius: 20px;
+  border:solid;
+  border-color: white;
+  color: white;
+  background: transparent;
+
+}
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+input[type=number]:focus{
+  outline:none;     /* oranges! yey */
+}
+
+.auctionItem{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
